@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { RxCross1 } from "react-icons/rx";
 
 export default function Navbar() {
@@ -6,9 +7,9 @@ export default function Navbar() {
       <div className="flex flex-start justify-start items-center mx-40">
         <div className="flex flex-1">
           <div className="mr-20">
-            <button
-              id="nav-toggle"
+            <Link
               className="flex items-center my-2 px-3 py-2 border rounded text-gray-200 border-gray-400 hover:text-white hover:border-white"
+              href="/"
             >
               <svg
                 className="fill-current h-3 w-3"
@@ -18,7 +19,7 @@ export default function Navbar() {
                 <title>Menu</title>
                 <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
               </svg>
-            </button>
+            </Link>
           </div>
 
           <div className="relative rounded-md shadow-sm justify-center items-center m-2">

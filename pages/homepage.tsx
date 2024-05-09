@@ -1,6 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import Link from "next/link";
 
 import Thumbnail from "../assets/images/Homepage-Thumbnail.png";
 import PetaKuliner from "../assets/images/Homepage-PetaKuliner.png";
@@ -27,25 +29,27 @@ export default function Homepage() {
         </div>
       </div>
 
-      <div className="border-4 shadow-xl mx-60 my-10 rounded-3xl">
-        <div className="flex flex-auto justify-center items-center">
-          <div className="border-4 bg-green-950 rounded-2xl text-white text-left p-6 ml-2 max-w-96 max-h-48 ">
-            <h1 className="text-4xl">Peta Kuliner Indonesia</h1>
+      <Link href="/peta-kuliner-indonesia">
+        <div className="border-4 shadow-xl mx-60 my-10 rounded-3xl">
+          <div className="flex flex-auto justify-center items-center">
+            <div className="border-4 bg-green-950 rounded-2xl text-white text-left p-6 ml-2 max-w-96 max-h-48 ">
+              <h1 className="text-4xl">Peta Kuliner Indonesia</h1>
+            </div>
+            <div className="mx-8 p-8">
+              <h1 className="text-2xl text-justify">
+                Peta yang memuat informasi tentang makanan - makanan di
+                Indonesia, terdiri dari pulau Sumatera, Jawa, Kalimantan, Bali &
+                Nusa Tenggara, Sulawesi, Maluku & Papua.{" "}
+              </h1>
+            </div>
+            <Image
+              src={PetaKuliner}
+              alt="Peta Kuliner Indonesia"
+              className="border-4 rounded-2xl shadow-2xl max-w-96 max-h-48 object-cover"
+            />
           </div>
-          <div className="mx-8 p-8">
-            <h1 className="text-2xl text-justify">
-              Peta yang memuat informasi tentang makanan - makanan di Indonesia,
-              terdiri dari pulau Sumatera, Jawa, Kalimantan, Bali & Nusa
-              Tenggara, Sulawesi, Maluku & Papua.{" "}
-            </h1>
-          </div>
-          <Image
-            src={PetaKuliner}
-            alt="Peta Kuliner Indonesia"
-            className="border-4 rounded-2xl shadow-2xl max-w-96 max-h-48 object-cover"
-          />
         </div>
-      </div>
+      </Link>
 
       <div className="border-4 shadow-xl mx-60 my-10 rounded-3xl">
         <div className="flex flex-row-reverse justify-center items-center">
