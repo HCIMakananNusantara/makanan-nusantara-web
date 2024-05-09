@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import { footerLeft as Footer } from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
 

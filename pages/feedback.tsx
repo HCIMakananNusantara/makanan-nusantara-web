@@ -1,13 +1,11 @@
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
-import Thumbnail from "../assets/images/PetaKuliner-Thumbnail.png";
+import Thumbnail from "../assets/images/Feedback-Thumbnail.png";
 import Asset_1 from "../assets/images/PetaKuliner-Asset-1.png";
-import Background from "../assets/images/PetaKuliner-Background.png";
-import PetaIndonesia from "../assets/images/PetaKuliner-PetaIndonesia.png";
 import { footerRight as Footer } from "@/components/Footer";
 
-export default function PetaKulinerIndonesia() {
+export default function AboutUs() {
   return (
     <div>
       <Navbar />
@@ -21,9 +19,9 @@ export default function PetaKulinerIndonesia() {
       <div className="bg-green-950 p-1 ">
         <div className="m-10 justify-center items-center text-center">
           <h1 className="font-bold text-2xl text-white">
-            "Food is our common ground, a universal experience."
+            "The only way to get rid of a temptation is to yield to it."
           </h1>
-          <h1 className="text-xl text-white">- James Beard -</h1>
+          <h1 className="text-xl text-white">- Oscar WIlde -</h1>
         </div>
       </div>
 
@@ -34,28 +32,19 @@ export default function PetaKulinerIndonesia() {
           className="w-full h-96 overflow-hidden object-cover inset-1"
         />
 
-        <div className="absolute inset-0 flex items-center justify-center ">
+        <div className="absolute inset-0 flex p-24 ml-48">
           <div className="text-white mr-[800px] mb-[100px]">
-            <span className="text-5xl font-bold">Peta Indonesia</span>
+            <span className="text-5xl font-bold">Feedback</span>
             <h1 className="text-xl">
-              Pilih salah satu pulau untuk menjelajahi informasi makanan
-              Indonesia.
+              Berikan kami penilaian untuk website kami yang lebih baik.
             </h1>
           </div>
         </div>
       </div>
 
-      <Image
-        src={Background}
-        alt="Thumbnail"
-        className="w-full h-full -mt-48"
-      />
-
-      <Image
-        src={PetaIndonesia}
-        alt="Thumbnail"
-        className="w-full h-full -mt-[925px]"
-      />
+      <div className="mb-72 text-justify">
+        <h1></h1>
+      </div>
 
       <Footer />
     </div>

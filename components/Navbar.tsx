@@ -9,7 +9,7 @@ export default function Navbar() {
           <div className="mr-20">
             <Link
               className="flex items-center my-2 px-3 py-2 border rounded text-gray-200 border-gray-400 hover:text-white hover:border-white"
-              href="/"
+              href="/homepage"
             >
               <svg
                 className="fill-current h-3 w-3"
@@ -46,8 +46,12 @@ export default function Navbar() {
 
         <div className="flex text-white">
           <h1 className="mx-6">Language</h1>
-          <h1 className="mx-6">About Us</h1>
-          <h1 className="mx-6">Feedback</h1>
+          <Link href="/about-us" className="mx-6">
+            About Us
+          </Link>
+          <Link href="/feedback" className="mx-6">
+            Feedback
+          </Link>
           <RxCross1 className="text-white w-6 h-6 ml-10" />
         </div>
       </div>
