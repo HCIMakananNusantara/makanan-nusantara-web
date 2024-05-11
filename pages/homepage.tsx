@@ -51,25 +51,27 @@ export default function Homepage() {
         </div>
       </Link>
 
-      <div className="border-4 shadow-xl mx-60 my-10 rounded-3xl">
-        <div className="flex flex-row-reverse justify-center items-center">
-          <div className="border-4 bg-green-950 rounded-2xl text-white text-left p-6 ml-2 max-w-96 max-h-48 ">
-            <h1 className="text-4xl">Resep Kuliner Indonesia</h1>
+      <Link href="/resep-kuliner-indonesia">
+        <div className="border-4 shadow-xl mx-60 my-10 rounded-3xl">
+          <div className="flex flex-row-reverse justify-center items-center">
+            <div className="border-4 bg-green-950 rounded-2xl text-white text-left p-6 ml-2 max-w-96 max-h-48 ">
+              <h1 className="text-4xl">Resep Kuliner Indonesia</h1>
+            </div>
+            <div className="mx-8 p-8">
+              <h1 className="text-2xl text-justify">
+                Resep dan cara pembuatan tentang makanan - makanan di Indonesia,
+                lengkap beserta video dari content creator yang ahli dalam
+                membuat makanan.{" "}
+              </h1>
+            </div>
+            <Image
+              src={ResepKuliner}
+              alt="Resep Kuliner Indonesia"
+              className="border-4 rounded-2xl shadow-2xl max-w-96 max-h-48 object-cover"
+            />
           </div>
-          <div className="mx-8 p-8">
-            <h1 className="text-2xl text-justify">
-              Resep dan cara pembuatan tentang makanan - makanan di Indonesia,
-              lengkap beserta video dari content creator yang ahli dalam membuat
-              makanan.{" "}
-            </h1>
-          </div>
-          <Image
-            src={ResepKuliner}
-            alt="Resep Kuliner Indonesia"
-            className="border-4 rounded-2xl shadow-2xl max-w-96 max-h-48 object-cover"
-          />
         </div>
-      </div>
+      </Link>
 
       <Footer />
     </div>
