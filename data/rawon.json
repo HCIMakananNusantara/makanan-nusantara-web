@@ -1,0 +1,41 @@
+{
+  "nama": "Rawon",
+  "description": [
+    "Rawon adalah masakan khas Indonesia, terutama populer di Jawa Timur. Rawon adalah sup daging berwarna hitam yang khas karena menggunakan bumbu kluwek, sebuah biji hitam yang memberikan cita rasa khas dan warna gelap pada supnya. Daging yang biasa digunakan adalah daging sapi, dan dalam hidangannya sering disertai dengan telur asin, tauge, dan bawang goreng sebagai pelengkap.",
+    "Lokasi rekomendasi untuk mencicipi rawon yang autentik adalah di Surabaya, Jawa Timur, Indonesia. Salah satu tempat makan rawon rekomendasi yang dikunjungi adalah Rawon Brintik. Tempat makan ini telah berdiri sejak 1942."
+  ],
+  "bahan": [
+    "500 gram daging sapi (biasanya menggunakan  bagian sandung lamur)",
+    "150 gram kacang kedelai hitam kering",
+    "2 liter air",
+    "2 lembar daun salam",
+    "2 batang serai, memarkan",
+    "4 cm lengkuas, memarkan",
+    "5 lembar daun jeruk purut",
+    "3 sendok makan minyak untuk menumis",
+    "Garam secukupnya",
+    "Gula merah secukupnya",
+    "Bawang goreng untuk taburan",
+    "Irisan bawang merah untuk taburan",
+    "Jeruk nipis"
+  ],
+  "bumbu": [
+    "8 butir bawang merah",
+    "6 siung bawang putih",
+    "5 butir kemiri, sangrai",
+    "3 cm kunyit, bakar",
+    "4 cm jahe, bakar",
+    "2 sendok teh ketumbar, sangrai",
+    "1 sendok teh merica butiran"
+  ],
+  "langkah": [
+    "Rendam kacang kedelai hitam dalam air hangat selama minimal 2 jam, lalu cuci hingga bersih.",
+    "Rebus daging sapi dalam air hingga empuk, lalu angkat, tiriskan, dan potong-potong sesuai selera.",
+    "Tumis bumbu halus hingga harum, lalu masukkan ke dalam panci yang berisi air rebusan daging sapi.",
+    "Tambahkan kacang kedelai hitam yang sudah direndam, daun salam, serai, lengkuas, dan daun jeruk purut ke dalam panci.",
+    "Masak dengan api kecil hingga bumbu meresap dan kuah mengental.",
+    "Koreksi rasa dengan menambahkan garam dan gula merah secukupnya.",
+    "Sajikan Rawon dalam mangkuk, tambahkan potongan daging sapi, dan taburi dengan bawang goreng serta irisan bawang merah.",
+    "Hidangkan bersama nasi hangat dan jeruk nipis sebagai pelengkap"
+  ]
+}

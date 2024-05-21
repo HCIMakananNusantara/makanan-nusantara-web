@@ -1,0 +1,44 @@
+{
+  "nama": "Rendang",
+  "description": [
+    "Rendang adalah hidangan khas dari Minangkabau, Sumatera Barat, Indonesia. Hidangan ini terdiri dari potongan daging yang dimasak dalam bumbu rempah-rempah yang kaya selama berjam-jam, hingga daging menjadi empuk dan bumbunya meresap. Rendang biasanya disajikan dengan nasi putih dan lauk tambahan seperti gulai ayam, ayam goreng, dendeng balado, sambal hijau pedas, ikan bakar, dan lainnya. Hidangan ini terkenal akan cita rasanya yang kaya dan rempah-rempah yang melimpah.",
+    "Untuk menikmati rendang yang autentik, Anda dapat mencoba di Padang, ibu kota Sumatera Barat. Beberapa tempat yang terkenal untuk mencicipi rendang di Padang antara lain Rumah Makan Sederhana, Rumah Makan Pagi Sore, dan Rumah Makan Garuda. Selain itu, rendang juga dapat ditemukan di banyak tempat di seluruh Indonesia karena popularitasnya yang besar."
+  ],
+
+  "bahan": [
+    "1 kg daging sapi.",
+    "1 liter santan kental dari 3 butir kelapa (perasan pertama tanpa air).",
+    "550 gram kelapa parut, disangrai sampai kecokelatan.",
+    "5 lembar daun salam.",
+    "1 lembar daun kunyit.",
+    "10 lembar daun jeruk.",
+    "5 batang serai.",
+    "1/2 batang kayu manis.",
+    "3 butir cengkeh.",
+    "2 sdt garam.",
+    "1 buah kembang lawang."
+  ],
+  "bumbu": [
+    "65 gram bawang putih.",
+    "125 gram bawang merah.",
+    "15 gram kunyit.",
+    "35 gram jahe.",
+    "75 gram lengkuas.",
+    "35 gram kemiri.",
+    "1/2 sdt lada bubuk.",
+    "1 sdt ketumbar.",
+    "1 buah kapulaga.",
+    "1/4 buah pala."
+  ],
+  "langkah": [
+    "Siapkan semua bahan dan bumbu dan daging sapi yang telah dibersihkan dan dipotong-potong dengan baik",
+    "Haluskan semua bumbu halus menggunakan blender atau ulekan hingga halus dan tercampur rata.",
+    "Panaskan sedikit minyak dalam panci besar, tumis bumbu halus bersama dengan daun salam, daun kunyit, daun jeruk, serai, kayu manis, cengkeh, dan kembang lawang. Tumis hingga harum dan bumbu matang.",
+    "Masukkan potongan daging sapi ke dalam panci, aduk-aduk hingga daging berubah warna dan tercampur rata dengan bumbu.",
+    "Tuangkan santan kental ke dalam panci, aduk rata dengan daging dan bumbu. Biarkan santan mendidih sambil sesekali diaduk agar santan tidak pecah.",
+    "Setelah mendidih, turunkan api menjadi kecil dan biarkan rendang mendidih perlahan-lahan. Aduk sesekali untuk menghindari adonan dari bawah panci agar tidak gosong.",
+    "Setelah sekitar 2 jam, tambahkan kelapa parut yang telah disangrai ke dalam panci, aduk rata dan biarkan rendang terus mendidih dengan api kecil.",
+    "Masak rendang dengan api kecil dan sesekali diaduk hingga santan menyusut dan bumbu meresap sempurna ke dalam daging. Proses ini memakan waktu sekitar 4-5 jam hingga rendang matang dan bumbunya meresap ke dalam daging.",
+    "Setelah matang, tes rasa rendang dan sesuaikan dengan selera. Jika sudah pas, angkat rendang dari panci dan hidangkan selagi hangat bersama nasi putih."
+  ]
+}

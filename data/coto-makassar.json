@@ -1,0 +1,33 @@
+{
+  "nama": "Coto Makassar",
+  "description": [
+    "Coto Makassar adalah hidangan khas dari Sulawesi Selatan, terutama Makassar. Hidangan ini terkenal dengan kuahnya yang kental dan bumbu rempah-rempah yang kuat. Coto Makassar terbuat dari potongan daging sapi yang direbus dalam kuah kaya rempah-rempah seperti ketumbar, jinten, serai, jahe, dan bawang merah. Setelah direbus hingga empuk, daging biasanya disajikan dengan kuahnya yang kental dan ditaburi dengan bawang goreng, perkedel kentang, dan emping sebagai pelengkap. Coto Makassar biasanya disajikan bersama nasi putih hangat dan sambal, menciptakan kombinasi rasa yang kaya dan nikmat.",
+    "Jika Anda mencari tempat untuk menikmati Coto Makassar yang autentik, Makassar adalah tempat yang tepat. Beberapa warung makan yang terkenal di sana antara lain Coto Nusantara, Coto Karebosi, dan Coto Sudiang. Selain itu, Coto Makassar juga dapat ditemukan di berbagai daerah di Indonesia karena popularitasnya yang terus berkembang."
+  ],
+  "bahan": [
+    "1 kg daging sapi, cuci bersih",
+    "5 batang serai, memarkan",
+    "2.000 ml air cucian beras putih",
+    "5 lembar daun salam",
+    "3 sendok makan minyak goreng",
+    "250 gram kacang tanah, goreng dan haluskan",
+    "5 cm jahe, memarkan",
+    "1 ruas lengkuas, memarkan"
+  ],
+  "bumbu": [
+    "10 siung bawang putih",
+    "8 butir kemiri sangrai",
+    "1 sendok makan ketumbar, sangrai",
+    "1 sendok teh jintan, sangrai",
+    "1 sendok teh merica butiran",
+    "1 sendok teh garam"
+  ],
+  "langkah": [
+    "Rebus daging sapi menggunakan air cucian beras bersama dengan lengkuas, jahe, daun salam, dan serai. Masak hingga daging empuk.",
+    "Potong dadu daging, lalu tiriskan. Jangan dibuang dahulu air rebusannya.",
+    "Panaskan minyak, lalu tambahkan bumbu halus. Tumis hingga harum dan matang. Masukkan bumbu halus ke dalam air rebusan.",
+    "Panaskan dengan menambahkan kacang tanah goreng. Rebus hingga mendidih dan matikan kompor.",
+    "Siapkan piring saji, tambahkan irisan daun bawang, seledri, dan garam. Masukkan potongan daging dan tuang air kaldu ke dalamnya.",
+    "Taburi bawang merah goreng dan jeruk nipis."
+  ]
+}

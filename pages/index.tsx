@@ -4,6 +4,7 @@ import logo from "../assets/images/Homepage-Logo.png";
 import benderaIndo from "../assets/images/Bendera-Indonesia.jpeg";
 import benderaUS from "../assets/images/Bendera-US.png";
 import vector from "../assets/images/Homapage-Vector.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
           </h1>
           <div className="flex mt-6">
             <div className="mr-5 border-2 border-black rounded-3xl bg-white">
-              <a
+              <Link
                 href="/homepage"
                 className="flex justify-center items-center mx-2"
               >
@@ -29,11 +30,11 @@ export default function Home() {
                   className="mr-2 rounded-full "
                 />
                 <h1 className="font-bold mr-2">IND</h1>
-              </a>
+              </Link>
             </div>
 
             <div className="mr-5 border-2 border-black rounded-3xl bg-white">
-              <a
+              <Link
                 href="/homepage"
                 className="flex justify-center items-center mx-2"
               >
@@ -45,7 +46,7 @@ export default function Home() {
                   className="mr-2 rounded-full"
                 />
                 <h1 className="font-bold mr-2">ENG</h1>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
