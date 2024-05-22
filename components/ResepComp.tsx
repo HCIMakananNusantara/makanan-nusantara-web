@@ -11,7 +11,7 @@ interface props {
 export default function ResepComp({ title, thumbnail }: props) {
   return (
     <>
-      <div className="bg-gradient-to-b from-emerald-900 to-green-950 py-2">
+      <div className="bg-gradient-to-b from-emerald-900 to-green-950">
         <div className="flex flex-start justify-start items-center mx-40">
           <div className="flex flex-1">
             <div className="mr-20">
@@ -32,9 +32,7 @@ export default function ResepComp({ title, thumbnail }: props) {
             <Link href="/about-us" className="mx-6">
               About Us
             </Link>
-            <Link href="/feedback" className="mx-6">
-              Feedback
-            </Link>
+
             <RxCross1 className="text-white w-6 h-6 ml-10" />
           </div>
         </div>
