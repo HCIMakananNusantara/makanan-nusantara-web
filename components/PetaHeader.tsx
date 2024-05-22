@@ -30,9 +30,7 @@ export default function PetaHeader({ pageTitle }: Props) {
             <Link href="/about-us" className="mx-6">
               About Us
             </Link>
-            <Link href="/feedback" className="mx-6">
-              Feedback
-            </Link>
+
             <RxCross1 className="text-white w-6 h-6 ml-10" />
           </div>
         </div>

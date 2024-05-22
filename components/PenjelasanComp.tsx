@@ -29,7 +29,7 @@ export default function PenjelasanComp({
             <div className="mr-20">
               <Link
                 className="flex items-center my-2 px-3 py-2 border rounded text-gray-200 border-gray-400 hover:text-white hover:border-white"
-                href="/peta-kuliner-indonesia/sumatera"
+                href={"/peta-kuliner-indonesia/" + asalDaerah.toLowerCase()}
               >
                 <FaLessThan />
               </Link>

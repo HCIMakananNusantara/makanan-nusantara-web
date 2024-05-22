@@ -9,7 +9,7 @@ import Thumbnail from "@/assets/images/Resep-Rendang.png";
 export default function resepRendang() {
   return (
     <>
-      <ResepComp thumbnail={Thumbnail} title="Rendang" />
+      <ResepComp thumbnail={Thumbnail} title="Rendang" asal="sumatera" />
 
       <ResepContent data={data} thumbnailUrl={rendang} />
 

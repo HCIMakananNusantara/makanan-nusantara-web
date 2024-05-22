@@ -6,9 +6,16 @@ import Image from "next/image";
 interface props {
   title: string;
   thumbnail: any;
+  asal: string;
 }
 
-export default function ResepComp({ title, thumbnail }: props) {
+function convSpacetoStrip(input: string) {
+  return input.replaceAll(" ", "-");
+}
+
+export default function ResepComp({ title, thumbnail, asal }: props) {
+  let titleFix = convSpacetoStrip(title);
+
   return (
     <>
       <div className="bg-gradient-to-b from-emerald-900 to-green-950">
@@ -33,7 +40,11 @@ export default function ResepComp({ title, thumbnail }: props) {
               About Us
             </Link>
 
-            <RxCross1 className="text-white w-6 h-6 ml-10" />
+            <Link
+              href={`/peta-kuliner-indonesia/${asal.toLowerCase()}/${titleFix.toLowerCase()}`}
+            >
+              <RxCross1 className="text-white w-6 h-6 ml-10" />
+            </Link>
           </div>
         </div>
 

@@ -9,7 +9,11 @@ import Thumbnail from "@/assets/images/Pages-Ikan.png";
 export default function resepSotoBanjar() {
   return (
     <>
-      <ResepComp thumbnail={Thumbnail} title="Ikan Bakar Manokwari" />
+      <ResepComp
+        thumbnail={Thumbnail}
+        title="Ikan Bakar Manokwari"
+        asal="maluku-papua"
+      />
 
       <ResepContent data={data} thumbnailUrl={Ikan} />
 

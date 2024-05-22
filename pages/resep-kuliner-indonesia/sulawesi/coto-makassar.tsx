@@ -9,7 +9,7 @@ import Thumbnail from "@/assets/images/Pages-CotoMakassar.png";
 export default function resepCoto() {
   return (
     <>
-      <ResepComp thumbnail={Thumbnail} title="Coto Makassar" />
+      <ResepComp thumbnail={Thumbnail} title="Coto Makassar" asal="sulawesi" />
 
       <ResepContent data={data} thumbnailUrl={Coto} />
 
