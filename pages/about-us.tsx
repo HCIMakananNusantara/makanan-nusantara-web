@@ -46,7 +46,7 @@ export default function AboutUs() {
       <div className="flex mx-auto">
         <div className="border-4 shadow-xl mx-60 my-10 rounded-3xl">
           <div className="flex flex-auto justify-center items-center">
-            <div className="border-4 bg-green-950 rounded-2xl text-white text-left p-10 ml-2">
+            <div className="border-4 bg-green-950 rounded-2xl text-white text-left p-10  ml-2">
               <h1 className="text-6xl">Bocoran Kuliner Nusantara</h1>
             </div>
             <div className="mx-8 p-8">
