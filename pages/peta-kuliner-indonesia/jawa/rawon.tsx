@@ -9,7 +9,12 @@ import Image from "next/image";
 export default function penjelasanSotoBanjar() {
   return (
     <>
-      <PenjelasanComp title="Rawon" asalDaerah="Jawa" thumbnail={Thumbnail} />
+      <PenjelasanComp
+        title="Rawon"
+        asalDaerah="Jawa"
+        thumbnail={Thumbnail}
+        link={"https://maps.app.goo.gl/HE9j7zvEYxKX8v9P6"}
+      />
 
       <div className="mx-60 mt-10">
         {data.description.map((value: string, i: number) => (

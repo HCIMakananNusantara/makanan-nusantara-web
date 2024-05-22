@@ -13,6 +13,7 @@ export default function penjelasanSotoBanjar() {
         title="Ayam Betutu"
         asalDaerah="Bali-NT"
         thumbnail={Thumbnail}
+        link={"https://maps.app.goo.gl/o4uWfvUAtsoc1bXL6"}
       />
 
       <div className="mx-60 mt-10">

@@ -7,6 +7,7 @@ interface props {
   title: string;
   asalDaerah: string;
   thumbnail: any;
+  link: any;
 }
 
 function convertSpaceToStrip(input: string) {
@@ -16,7 +17,8 @@ function convertSpaceToStrip(input: string) {
 export default function PenjelasanComp({
   title,
   asalDaerah,
-  thumbnail
+  thumbnail,
+  link
 }: props) {
   let pageDir = convertSpaceToStrip(title);
   console.log(pageDir);
@@ -69,9 +71,11 @@ export default function PenjelasanComp({
             <h1 className="text-white font-bold text-2xl">Resep</h1>
           </Link>
           <div className="p-2 px-20 bg-gradient-to-r from-emerald-950 to-green-950 rounded-3xl">
-            <h1 className="text-white font-bold text-2xl">
-              Rekomendasi Lokasi
-            </h1>
+            <Link href={link}>
+              <h1 className="text-white font-bold text-2xl">
+                Rekomendasi Lokasi
+              </h1>
+            </Link>
           </div>
         </div>
       </div>

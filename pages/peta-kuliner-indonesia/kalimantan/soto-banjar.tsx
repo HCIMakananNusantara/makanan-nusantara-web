@@ -13,6 +13,7 @@ export default function penjelasanSotoBanjar() {
         title="Soto Banjar"
         asalDaerah="Kalimantan"
         thumbnail={Thumbnail}
+        link={"https://maps.app.goo.gl/BcSgapUm9Z9BNZfR8"}
       />
 
       <div className="mx-60 mt-10">

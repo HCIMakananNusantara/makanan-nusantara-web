@@ -13,6 +13,7 @@ export default function penjelasanCoto() {
         title="Coto Makassar"
         asalDaerah="Sulawesi"
         thumbnail={Thumbnail}
+        link={"https://maps.app.goo.gl/GoQrcfgLx4Xq4YTi9"}
       />
 
       <div className="mx-60 mt-10">

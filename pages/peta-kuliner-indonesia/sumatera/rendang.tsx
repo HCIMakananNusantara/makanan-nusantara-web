@@ -13,6 +13,7 @@ export default function penjelasanRendang() {
         title="Rendang"
         asalDaerah="Sumatera"
         thumbnail={Thumbnail}
+        link={"https://maps.app.goo.gl/MhPAs8zfW5hfvVxP7"}
       />
 
       <div className="mx-60 mt-10">

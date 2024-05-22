@@ -13,6 +13,7 @@ export default function penjelasanIkanManokwari() {
         title="Ikan Bakar Manokwari"
         asalDaerah="Maluku-Papua"
         thumbnail={Thumbnail}
+        link={"https://maps.app.goo.gl/6ZTwdpaEp83bc2SV7"}
       />
 
       <div className="mx-60 mt-10">
