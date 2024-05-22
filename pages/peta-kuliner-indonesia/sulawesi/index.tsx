@@ -4,9 +4,6 @@ import { footerRight as Footer } from "@/components/Footer";
 
 // Sulawesi
 import Coto from "@/assets/images/Resep-CotoMakassar.png";
-import Woku from "@/assets/images/Resep-Woku.png";
-import Konro from "@/assets/images/Resep-Konro.png";
-import Onde from "@/assets/images/Resep-Onde.png";
 
 export default function PetaSulawesi() {
   return (
@@ -21,9 +18,6 @@ export default function PetaSulawesi() {
             name="Coto Makassar"
             link="/peta-kuliner-indonesia/sulawesi/coto-makassar"
           />
-          <Cards imageSource={Woku} altPicture="" name="Ikan Woku Belanga" />
-          <Cards imageSource={Konro} altPicture="" name="Sop Konro" />
-          <Cards imageSource={Onde} altPicture="" name="Onde - Onde" />
         </div>
       </div>
 

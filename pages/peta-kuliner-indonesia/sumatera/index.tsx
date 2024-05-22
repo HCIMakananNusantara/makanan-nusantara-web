@@ -4,9 +4,6 @@ import { footerRight as Footer } from "@/components/Footer";
 
 // Sumatera
 import Rendang from "@/assets/images/Resep-Rendang.png";
-import MieAceh from "@/assets/images/Resep-MieAceh.png";
-import Pempek from "@/assets/images/Resep-Pempek.png";
-import Bika from "@/assets/images/Resep-Bika.png";
 
 export default function PetaSumatera() {
   return (
@@ -21,9 +18,6 @@ export default function PetaSumatera() {
             name="Rendang"
             link="/peta-kuliner-indonesia/sumatera/rendang"
           />
-          <Cards imageSource={MieAceh} altPicture="" name="Mie Aceh" />
-          <Cards imageSource={Pempek} altPicture="" name="Pempek" />
-          <Cards imageSource={Bika} altPicture="" name="Bika Ambon Medan" />
         </div>
       </div>
 

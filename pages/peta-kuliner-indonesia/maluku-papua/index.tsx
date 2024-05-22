@@ -4,9 +4,6 @@ import { footerRight as Footer } from "@/components/Footer";
 
 // Maluku dan Papua
 import IkanBakarM from "@/assets/images/Resep-IkanManokwari.png";
-import Colo from "@/assets/images/Resep-Colo.png";
-import Papeda from "@/assets/images/Resep-Papeda.png";
-import Ne from "@/assets/images/Resep-Ne.png";
 
 export default function PetaPapua() {
   return (
@@ -21,9 +18,6 @@ export default function PetaPapua() {
             name="Ikan Bakar Manokwari"
             link="/peta-kuliner-indonesia/maluku-papua/ikan-bakar-manokwari"
           />
-          <Cards imageSource={Colo} altPicture="" name="Sambal Colo-Colo" />
-          <Cards imageSource={Papeda} altPicture="" name="Papeda" />
-          <Cards imageSource={Ne} altPicture="" name="Bubur Ne Maluku" />
         </div>
       </div>
 

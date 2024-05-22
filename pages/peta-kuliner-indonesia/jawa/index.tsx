@@ -4,9 +4,6 @@ import { footerRight as Footer } from "@/components/Footer";
 
 // Jawa
 import Rawon from "@/assets/images/Resep-Rawon.png";
-import NPecel from "@/assets/images/Resep-NPecel.png";
-import Gudeg from "@/assets/images/Resep-Gudeg.png";
-import Klepon from "@/assets/images/Resep-Klepon.png";
 
 export default function PetaJawa() {
   return (
@@ -21,9 +18,6 @@ export default function PetaJawa() {
             name="Rawon"
             link="/peta-kuliner-indonesia/jawa/rawon"
           />
-          <Cards imageSource={NPecel} altPicture="" name="Nasi Pecel" />
-          <Cards imageSource={Gudeg} altPicture="" name="Gudeg Jogja" />
-          <Cards imageSource={Klepon} altPicture="" name="Klepon" />
         </div>
       </div>
 
