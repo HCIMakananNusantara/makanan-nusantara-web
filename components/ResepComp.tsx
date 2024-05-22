@@ -7,13 +7,14 @@ interface props {
   title: string;
   thumbnail: any;
   asal: string;
+  link: any;
 }
 
 function convSpacetoStrip(input: string) {
   return input.replaceAll(" ", "-");
 }
 
-export default function ResepComp({ title, thumbnail, asal }: props) {
+export default function ResepComp({ title, thumbnail, asal, link }: props) {
   let titleFix = convSpacetoStrip(title);
 
   return (
@@ -59,7 +60,9 @@ export default function ResepComp({ title, thumbnail, asal }: props) {
         <h1 className="text-4xl mt-2">Resep {title}</h1>
 
         <div className="p-2 px-20 bg-gradient-to-r from-emerald-950 to-green-950 rounded-3xl">
-          <h1 className="text-white font-bold text-2xl">Video Resep</h1>
+          <Link href={link}>
+            <h1 className="text-white font-bold text-2xl">Video Resep</h1>
+          </Link>
         </div>
       </div>
     </>

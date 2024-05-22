@@ -9,7 +9,12 @@ import Thumbnail from "@/assets/images/Pages-AyamBetutu.png";
 export default function resepAyamBetutu() {
   return (
     <>
-      <ResepComp thumbnail={Thumbnail} title="Ayam Betutu" asal="bali-nt" />
+      <ResepComp
+        thumbnail={Thumbnail}
+        title="Ayam Betutu"
+        asal="bali-nt"
+        link="https://youtu.be/8L2FdhuVbQM?si=rwY8c0mhnOCEa6lw"
+      />
 
       <ResepContent data={data} thumbnailUrl={Betutu} />
 

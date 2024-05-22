@@ -9,7 +9,12 @@ import Thumbnail from "@/assets/images/Pages-Rawon.png";
 export default function resepRawon() {
   return (
     <>
-      <ResepComp thumbnail={Thumbnail} title="Rawon" asal="jawa" />
+      <ResepComp
+        thumbnail={Thumbnail}
+        title="Rawon"
+        asal="jawa"
+        link={"https://youtu.be/3ZC3U0TYOhs?si=eEYgUb9WAJcVUyTd"}
+      />
 
       <ResepContent data={data} thumbnailUrl={Rawon} />
 

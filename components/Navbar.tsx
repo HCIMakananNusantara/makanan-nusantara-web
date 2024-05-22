@@ -17,7 +17,7 @@ export default function Navbar() {
             About Us
           </Link>
 
-          <Link href={"/homepage"}>
+          <Link href={"/"}>
             <RxCross1 className="text-white w-6 h-6 ml-10" />
           </Link>
         </div>

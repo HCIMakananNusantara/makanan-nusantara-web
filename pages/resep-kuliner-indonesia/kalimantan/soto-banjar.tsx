@@ -9,7 +9,12 @@ import Thumbnail from "@/assets/images/Pages-Thumb-SotoBanjar.png";
 export default function resepSotoBanjar() {
   return (
     <>
-      <ResepComp thumbnail={Thumbnail} title="Soto Banjar" asal="kalimantan" />
+      <ResepComp
+        thumbnail={Thumbnail}
+        title="Soto Banjar"
+        asal="kalimantan"
+        link={"https://youtu.be/wyGBCbmvGYw?si=v6P6cKXNdOwmhRUE"}
+      />
 
       <ResepContent data={data} thumbnailUrl={SotoBanjar} />
 

@@ -13,6 +13,7 @@ export default function resepSotoBanjar() {
         thumbnail={Thumbnail}
         title="Ikan Bakar Manokwari"
         asal="maluku-papua"
+        link={"https://youtu.be/EuRMC2G2oyM?si=c7nWUz_BFsdXS8Rc"}
       />
 
       <ResepContent data={data} thumbnailUrl={Ikan} />
